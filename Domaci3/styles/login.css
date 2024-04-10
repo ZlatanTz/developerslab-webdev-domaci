@@ -1,0 +1,94 @@
+main {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-image: url(../imgs/bg-login.jpg);
+   backdrop-filter: opacity(0.5);
+}
+
+.hero-container {
+   margin-top:20px;
+   margin-bottom: 20px;
+   width: clamp(700px, 30%, 1000px);
+   height:auto;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: space-between;
+   gap: 70px;
+   border: 0;
+   border-radius: 1em;
+   padding-bottom: 70px;
+   padding-top: 70px;
+   background-color: rgba(255, 255, 255, 0.5)
+
+}
+
+.hero-title-container{
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   gap: 10px;
+}
+
+.hero-title-container h3{
+   font-size: 40px;
+   
+}
+
+.hero-title-container * {
+   color: #4b3523;
+}
+
+.register-link {
+   color: rgb(39, 104, 134);
+}
+
+.hero-form-container {
+   display: flex;
+   flex-direction: column;
+   gap: 30px;
+   width: 80%;
+}
+
+.input-container {
+   display: flex;
+   flex-direction: column;
+   gap: 4px;
+   text-indent: 4px;
+   
+}
+
+.hero-form-input{
+   width: 100%;
+   height: 50px;
+   border: 1px solid #4b3523;
+   border-radius: 0.7em;
+   text-indent: 20px;
+   font-size: 1.5em;
+}
+
+.message-textarea {
+   max-width: 100%;
+   min-width: 100%;
+   min-height: 80px;
+   max-height: 220px;
+}
+
+.hero-form-button {
+   height: 50px;
+   font-size: 1em;
+   font-weight: bold;
+   border-radius: 0.7em;
+   border: 1px solid #4b3523;
+   background-color: #4b3523;
+   color: #a69991;
+   transition: transform 0.5s;
+}
+
+.hero-form-button:hover{
+   transform: scale(1.05);
+   transition-duration: 1s;
+}
